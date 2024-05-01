@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: small;
+    letter-spacing: -2.5px;
+    background-color: black;
+  
+}
+
+.navbar {
+    background-color: #0025ff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    text-transform: uppercase;
+    padding: 12px;
+    position: fixed;
+    font-size: 15px;
+    
+    letter-spacing: -1px;
+
+
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.navbar-right {
+    padding-right: 15px;
+}
+
+@media(max-width:750px) {
+    .navbar-right {
+        display: none;
+    }
+    .contact_us{
+        display: none;
+    }
+    .view_prdct{
+        margin-left: 20vw;
+        }
+
+}
+
+.PepsiLogo {
+    height: 60px;
+    width: 60px;
+}
+
+.navbar-item {
+    color: white;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.navbar-right .navbar-item {
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 5px 25px;
+}
+
+.main {
+    display: block;
+    
+}
+
+
+section {
+    height: 100vh;
+  
+}
+
+.first-video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+.wild-cherry {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 78vh;
+}
+
+
+
+
+.shop_now a {
+
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 15px 60px;
+    font-size: 3.418vw;
+
+}
+
+.wild-cherry-2 {
+    height: 133vh;
+    background-size: cover;
+    background-position: center center;
+    display: block;
+}
+
+.text-1 img{
+    display: block;
+    width: 100%;
+}
+
+.promotion_vid_thumbnail{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.thumbnail{
+width: fit-content;}
+
+.thumbnail img{
+    padding:10px;
+    width: 100%;
+}
+
+.thumbnail a {
+
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 2.832vw;
+    padding: 15px 0px;
+    display: flexbox;
+
+}
